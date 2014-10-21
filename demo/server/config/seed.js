@@ -7,6 +7,22 @@
 
 var Thing = require('../api/thing/thing.model');
 var User = require('../api/user/user.model');
+var Gdg = require('../api/gdg/gdg.model');
+
+Gdg.find({}).remove(function() {
+  Gdg.create({
+    name: 'GDG Hamburg',
+    members: 221
+  }, {
+    name: 'GDG Berlin',
+    members: 879
+  }, {
+    name: 'GDG Scheibenwelt',
+    members: 1337
+  }, function() {
+    console.log('finished populating Gdgs');
+  });
+});
 
 Thing.find({}).remove(function() {
   Thing.create({

@@ -5,7 +5,7 @@ var mongoose = require('mongoose'),
 
 var GdgSchema = new Schema({
   name: String,
-  info: String,
+  members: { type: Number, default: 1 },
   active: Boolean
 });
 

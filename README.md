@@ -27,4 +27,8 @@ First off, generate an app:
 
 step00 - this is the initial created demo app, come back here
 step01 - explain how the folder structure is intendet to be used
-step02 - create a new endpoint: `yo angular-fullstack:endpoint gdg`
+step02 - create a new endpoint: `yo angular-fullstack:endpoint gdg`, change model and add seeds
+step03 - create a new route: `yo angular-fullstack:route gdg`
+step04 - add new route to the navbar controller, change the view for it,
+         add the functionality to get data from backend and post to the backend
+step05 -

@@ -25,6 +25,6 @@ First off, generate an app:
     cd /tmp/ && mkdir demo && cd demo
     yo angular-fullstack gdg-dev-fest2014
 
-step00 - This is the initial created demo app, come back here
+step00 - this is the initial created demo app, come back here
 step01 - explain how the folder structure is intendet to be used
-step02 -
+step02 - create a new endpoint: `yo angular-fullstack:endpoint gdg`

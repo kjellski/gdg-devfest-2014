@@ -25,11 +25,12 @@ First off, generate an app:
     cd /tmp/ && mkdir demo && cd demo
     yo angular-fullstack gdg-dev-fest2014
 
-step00 - this is the initial created demo app, come back here
-step01 - explain how the folder structure is intendet to be used
-step02 - create a new endpoint: `yo angular-fullstack:endpoint gdg`, change model and add seeds
-step03 - create a new route: `yo angular-fullstack:route gdg`
-step04 - add new route to the navbar controller, change the view for it,
-         add the functionality to get data from backend and post to the backend
-step05 - have a look at the minification and build process
-step06 - deploy to heroku `yo angular-fullstack:heroku`
+And follow these _tags_, you'll get to a basic app sceleton that is ready to deploy:
+
+* [step00](https://github.com/kjellski/gdg-devfest-2014/releases/tag/stop00_just_generated) - this is the initial created demo app, come back here
+* [step01](https://github.com/kjellski/gdg-devfest-2014/releases/tag/step01_show_folder_structure) - explain how the folder structure is intendet to be used
+* [step02](https://github.com/kjellski/gdg-devfest-2014/releases/tag/step02_create_endpoint_gdgs) - create a new endpoint: `yo angular-fullstack:endpoint gdg`, change model and add seeds
+* [step03](https://github.com/kjellski/gdg-devfest-2014/releases/tag/step03_create_new_route) - create a new route: `yo angular-fullstack:route gdg`
+* [step04](https://github.com/kjellski/gdg-devfest-2014/releases/tag/step04_get_post_backend) - add new route to the navbar controller, change the view for it, add the functionality to get data from backend and post to the backend
+* [step05](https://github.com/kjellski/gdg-devfest-2014/releases) - have a look at the minification and build process
+* [step06](gdg-devfest-2014.herokuapp.com) - deploy to heroku `yo angular-fullstack:heroku`

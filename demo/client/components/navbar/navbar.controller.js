@@ -5,6 +5,9 @@ angular.module('gdgDevFest2014App')
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
+    }, {
+      'title': 'GDGs',
+      'link': '/gdg'
     }];
 
     $scope.isCollapsed = true;

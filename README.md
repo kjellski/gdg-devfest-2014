@@ -31,4 +31,5 @@ step02 - create a new endpoint: `yo angular-fullstack:endpoint gdg`, change mode
 step03 - create a new route: `yo angular-fullstack:route gdg`
 step04 - add new route to the navbar controller, change the view for it,
          add the functionality to get data from backend and post to the backend
-step05 -
+step05 - have a look at the minification and build process
+step06 - deploy to heroku `yo angular-fullstack:heroku`
